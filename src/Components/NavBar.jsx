@@ -1,10 +1,12 @@
 import React from "react";
 import weddingLogo from "../assets/weddingLogo.png"; // Import the image
-
+import searchIcon from "../assets/search.png";
+import instaLogo from "../assets/instagram.png";
 
 const NavBar = () => {
   return (
     <>
+    <div style={{backgroundColor:"white", width:"100vw", height:"18px"}}></div>
       <nav
         style={{
           width: "100vw",
@@ -34,8 +36,12 @@ const NavBar = () => {
             <li>Book an Appointment</li>
             <li>Contact Us</li>
             <li>Our Collections</li>
-            <li>Search</li>
-            <li>Logo</li>
+            <li>
+              <img style={{width:"25px", height:"25px"}} src={searchIcon} />
+            </li>
+            <li>
+            <img style={{width:"25px", height:"25px"}} src={instaLogo} />
+            </li>
           </ul>
         </div>
       </nav>
