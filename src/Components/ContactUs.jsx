@@ -47,7 +47,7 @@ const ContactUs = () => {
                 <p style={{marginBottom:"2%", color:"gray", fontSize:"14px"}}>Your message (optional)</p>
                 <input style={{ marginBottom:"18px", width:"350%", height:"5vh", textDecoration:"none", backgroundColor:"black", border:"1px solid white", borderColor:'1px solid white', height:"30vh"}}></input>
 
-                <div className="submit-Button" style={{backgroundColor:"#13aff0", width:"90px", height:"40px", display:"flex", justifyContent:"center", alignItems:"center"}}>
+                <div className = "submit-Button" style={{backgroundColor:"#13aff0", width:"90px", height:"40px", display:"flex", justifyContent:"center", alignItems:"center"}} onClick={()=>alert("Its a prototype !")}>
                     <p style={{color:"white", fontSize:"800"}}>SUBMIT</p>
                 </div>
             </form>
