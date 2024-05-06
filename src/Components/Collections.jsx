@@ -26,9 +26,24 @@ const Collections = () => {
         >
           <h1 style={{ color: "#e3b857" }}>OUR COLLECTION</h1>
         </div>
-        <div className="imageContainer" style={{paddingLeft:"8rem", paddingRight:"8rem",display:"flex", flexDirection:"row", justifyContent:"center"}}>
-            <img style={{width:"45%", objectFit:"fill",paddingRight:"10px"}} src={bride1} />
-            <img style={{width:"45%", objectFit:"fill", paddingLeft:"10px"}} src={bride2} />
+        <div
+          className="imageContainer"
+          style={{
+            paddingLeft: "8rem",
+            paddingRight: "8rem",
+            display: "flex",
+            flexDirection: "row",
+            justifyContent: "center",
+          }}
+        >
+          <img
+            style={{ width: "50%", objectFit: "fill", paddingRight: "10px" }}
+            src={bride1}
+          />
+          <img
+            style={{ width: "50%", objectFit: "fill", paddingLeft: "10px" }}
+            src={bride2}
+          />
         </div>
       </div>
     </>
